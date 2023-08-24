@@ -1,7 +1,7 @@
 header {
-    background: #000;
+    background: #bbb;
     height: 50px;
-    color: #FFF;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +24,6 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: #FFF;
+    color: #000000;
     text-decoration: none;
 }

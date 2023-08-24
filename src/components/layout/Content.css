@@ -1,0 +1,7 @@
+#content{
+    width: 700px;
+    height: 800px;
+    background: #e4e4e4;
+    display: flex;
+    justify-content: center;
+}
