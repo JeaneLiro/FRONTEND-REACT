@@ -1,7 +1,7 @@
 header {
-    background: #bbb;
+    background: #000;
     height: 50px;
-    color: #000000;
+    color: #FFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +14,7 @@ header h1{
 
 header nav ul{
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     gap: 20px;
@@ -24,6 +25,11 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: #000000;
+    color: #FFF;
     text-decoration: none;
+}
+
+header nav ul li a.active{
+    border-bottom: 5px solid #d85300;
+    padding-bottom: 12px;
 }
