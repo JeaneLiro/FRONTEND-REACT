@@ -1,7 +1,5 @@
 #sidebar {
     width: 200px;
-    height: 800px;
-    background: rgb(182, 182, 182);
-    display: flex;
-    justify-content: center;
+    height: 500px;
+    background: #CCC;
 }
